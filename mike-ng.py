@@ -1,5 +1,13 @@
 import os
 
+#bu yazılım sahibi belirtilecek şekilde değiştirilebilir veya geliştirilebilir sadece, aksi takdirde dava açılır.
+print("""
+
+┌───── •✧✧• ─────┐
+ -Yapımcı Mike adams 
+└───── •✧✧• ─────┘
+""")
+
 print ("yapımcı: mike adams 19.07.2021")
 print ("wifi hacking python")
 sayimin = input("wordlist için minimum uzunluk sayısı: ")
